@@ -18,8 +18,6 @@ const Login = () => {
   const [updatedPasswords, setUpdatedPasswords] = useState({});
   const lockTimer = useRef(null);
 
-
-
   const currentUser = users.find((user) => user.username === username);
 
   const handleLogin = () => {
